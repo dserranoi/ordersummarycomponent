@@ -125,12 +125,9 @@ body{
 
 @media (max-width:375px){
     .order__card{
-        
-        width: 90%;
-        
+        width: 99%;
     }
     .order__details{
-        
         padding: 2rem 2rem;
     }
 }
