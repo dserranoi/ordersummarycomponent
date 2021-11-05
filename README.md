@@ -87,7 +87,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/dserranoi)
+- Frontend Mentor - [@dserranoi](https://www.frontendmentor.io/profile/dserranoi)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
