@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: var(--paleblue);
+    background-image: url("./pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.order__card{
+    border-radius: 20px;
+    width: 25%;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.order__card-img{
+    width: 100%;
+}
+
+
+.order__details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+
+.order__details-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.order__details-description{
+    color:  var(--desaturedblue);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.order__details-plan{
+    background: var(--verypaleblue);
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.details__plan-icon{
+    flex-shrink: 1;
+}
+
+.details__plan-cost{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 1.5rem;
+}
+
+
+.details__plan-cost > span:nth-child(1){
+    font-weight: bold;
+}
+.details__plan-cost > span:nth-child(2){
+    color:  var(--desaturedblue);
+}
+
+.details__plan-change{
+    flex-shrink: 1;
+   
+}
+
+.details__plan-change > a{
+    color: var(--brightblue);
+}
+
+.order__details-action{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.order__details-action > button {
+    margin-top: 1rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+.action__proceed-btn{
+    background: var(--brightblue);
+    border: var(--darkblue);
+    padding: .5rem;
+    color: #ffffff;
+    border-radius: .5rem;
+    box-shadow: 0px 6px 6px -3px var(--desaturedblue);
+}
+
+.action__cancel-btn{
+    background: transparent;
+    border: 0px;
+    color: var(--desaturedblue);
+}
+
+.attribution{
+    margin-top: 1rem;
+}
+
+@media (max-width:375px){
+    .order__card{
+        
+        width: 90%;
+        
+    }
+    .order__details{
+        
+        padding: 2rem 2rem;
+    }
+}
+
+
+
+:root{
+    --paleblue:hsl(225, 100%, 94%);
+    --verypaleblue:hsl(225, 100%, 98%);
+    --desaturedblue:hsl(224, 23%, 55%);
+    --brightblue:hsl(245, 75%, 52%);
+    --darkblue:hsl(223, 47%, 23%);
+}
+
